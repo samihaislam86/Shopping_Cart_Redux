@@ -36,6 +36,19 @@
   gap:5rem;
   color:#00563B
 }
+
+.price{
+  color:red;
+  font-size:x-large;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
 .addtocartbutton{
   background-color: #00563B;
   color:wheat;

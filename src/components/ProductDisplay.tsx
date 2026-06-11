@@ -11,7 +11,7 @@ export default function ProductDisplay() {
             </div>
             <div>
                 <h1>{products[0].name}</h1>
-                <h3>{products[0].price}</h3>
+                <p className="price">{products[0].price} TK</p>
                 <p>{products[0].desc}</p>
                 <button onClick={() => dispatch(additem(products[0]))} className="addtocartbutton">
                     Add To Cart
