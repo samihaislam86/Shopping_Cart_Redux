@@ -20,11 +20,6 @@
 
 }
 
-
-
-
-
-
 .logo{
   width: 70px;
   height: 70px;
@@ -44,8 +39,7 @@
 .addtocartbutton{
   background-color: #00563B;
   color:wheat;
-  padding:10px 20px;
-  
+  padding:10px 20px;  
   border-radius: 10px;
   font-weight: bold;
 
@@ -72,5 +66,23 @@
   padding:10px;
   border-radius: 10px;
   padding-left: 20px;
+}
+.removecartbutton{
+  background-color: #00563B;
+  color:wheat;
+  padding:10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.removecartbutton:hover{
+  background-color: wheat;
+  color:#00563B;
+  cursor: pointer;
+}
+
+.quantitybutton{
+  background-color: #00563B;
+  color:wheat;
+  margin: 10px;
 
 }

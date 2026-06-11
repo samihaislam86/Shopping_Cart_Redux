@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux"
-import { additem } from "../redux/slice"
+import { additem } from "../redux/actions"
 import products from "../data/product"
 
 export default function ProductDisplay() {
